@@ -15,4 +15,5 @@ pipeline {
                 sh '/usr/local/bin/packer build ubuntu.json'
             }
         }
+    }
 }
